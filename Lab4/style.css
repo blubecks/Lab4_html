@@ -1,0 +1,73 @@
+/*
+    ASSEGNO UNO STILE GENERICO AL CORPO DELLA PAGINA
+    ED ALL'ELEMENTO DIV
+*/
+
+body
+{
+    background-color: black;
+}
+div
+{
+    font:Arial;
+}
+a:link {background-color:black;color: white;text-decoration: none;}    /* unvisited link */
+a:visited {background-color:black;color: white;text-decoration: none;} /* visited link */
+a:hover {text-decoration:underline;color: bisque;}   /* mouse over link*/
+a:active {background-color:red;}	/*active link*/
+
+/*
+    DEFINISCO IL DIV DIV PRINCIPALE, CONTENITORE
+    DI TUTTI GLI ALTRI DIV
+*/
+#MAIN
+{
+	height:9%;
+
+}
+
+/*
+    DEFINISCO UNO STILE AL TOP DELLA PAGINA
+*/
+
+#TOP
+{
+    text-align: center;
+    font-weight: Bold;
+    color:white;
+    padding: 3px;
+    border-style: outset;
+    border-width: 3px;
+    border-color: red;
+}
+
+
+#MENU_SX
+{
+    background-color: black;
+    color:white;
+    float: Left;
+    width: 20%;    
+  
+}
+#MENU_DX
+{
+    background-color: black;
+    color:white;
+    float: Left;
+    width: 80%;
+    
+  
+}
+#FOOTER
+{
+	height: auto;
+	font-style: italic;
+	font:Times;
+	border-top-width:3px; 
+	border-top-color: white;
+	border-top-style:solid; 
+	padding: 3px;
+float: Left;
+color: white;
+}
